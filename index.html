@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Keywords & Description -->
+    <meta name="keywords" content="Donqueso, fiambres, quesos, picadas, fiambres ofertas, quesos ofertas, fiambreria"/>
+    <meta name="description" content="Descubri los nuevos sabores de fiambres y disfruta en casa con Dejamones aprovechando las ofertas
+    de la semana!">
+
+    <link rel="shortcut icon" href="recursos/favicon-16x16.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>donqueso - Fiambreria</title>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bgper">
+            <div class="container-fluid">
+              <a class="navbar-brand navbrand" href="index.html">Don queso</a>
+              <button class="navbar-toggler navbar-dark navtoggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link navA" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navA" href="paginas/tablaspic.html">Tablas y picadas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navA" href="paginas/fiambres.html">Fiambres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navA" href="paginas/quesos.html">Quesos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navA" href="paginas/sobrenos.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navA" href="paginas/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="utilidad">
+            <div class="input-box">
+                <input type="text" name="" id="" placeholder="Busqueda">
+                <span class="search">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </span>
+                <i class="fa-solid fa-xmark close-icon"></i>
+            </div>
+            <div>
+                <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body backgrd">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Portada principal -->
+        <section class="portprin">
+            <div class="portprin__portada">
+                <div class="portprin__portadaCont">
+                    <div class="portprin__portadaInfo">
+                        <h1 class="animate__animated animate__bounceInRight" >Mira nuestros mejores Productos</h1>
+                        <a href="paginas/listaproductos.html" >Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Titulo de oferta -->
+        <section class="ofertas">
+            <div class="ofertas__text">
+                <p>¡Nuestras ofertas de la semana!</p>
+            </div>
+        </section>
+        <!-- Cards de bootstrap para las ofertas -->
+        <section class="ofertascard">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-center">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="recursos/quesos/queso fontina italiano.jpg" class="card-img-top" alt="ofertaquesoitaliano">
+                            <div class="card-body text-center flexper">
+                                <span>Queso Fontina Italiano</span>
+                                <a href="paginas/producto.html" class="btn btnbgcolor">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- El style width viene por defecto con boot -->
+                        <div class="card" style="width: 18rem;">
+                            <img src="recursos/placehorlderqueso.jpg" class="card-img-top" alt="ofertaquesoholandes">
+                            <div class="card-body text-center flexper">
+                                <span>Queso Semiduro Holands</span>
+                                <a href="paginas/producto.html" class="btn btnbgcolor">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="recursos/fiambres/chorizocoloradoalpino.jpg" class="card-img-top" alt="ofertachorizoalpino">
+                            <div class="card-body text-center flexper">
+                                <span>Chorizo colorado Alpino</span>
+                                <a href="paginas/producto.html" class="btn btnbgcolor">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="recursos/fiambres/jamon cocido ahumado.jpg" class="card-img-top" alt="ofertajamonahumado">
+                            <div class="card-body text-center flexper">
+                                <span>Jamón cocido ahumado</span>
+                                <a href="paginas/producto.html" class="btn btnbgcolor">Ver Producto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <p>Informate de nuestras novedades</p>
+            <input type="email" placeholder="Ingresa tu Email" class="newsletter__email">
+            <input type="submit" class="newsletter__submit">
+        </section>
+        <!-- Cards de productos, con animación -->
+        <section class="productos">
+            <div class="productos__text">
+                <h2>Nuestros Productos</h2>
+            </div>
+            <div class="productos__container" data-aos="zoom-in">
+                <div class="productos__card">
+                    <a href="paginas/tablaspic.html"><img src="recursos/placeholder.jpg" alt="picadacatalogo" class="productos__card__img"></a>
+                    <div>
+                        <h3>Tablas y Picadas</h3>
+                    </div>
+                </div>
+                <div class="productos__card">
+                    <a href="paginas/quesos.html"><img src="recursos/quesosportadaprincipal.jpg" alt="quesoscatalogo" class="productos__card__img"></a>
+                    <div>
+                        <h3>Quesos</h3>
+                    </div>
+                </div>
+                <div class="productos__card">
+                    <a href="paginas/fiambres.html"><img src="recursos/picadaportada.jpg" alt="fiambrescatalogo" class="productos__card__img"></a>
+                    <div>
+                        <h3>Fiambres</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footercont">
+            <ul class="footerlist">
+                <li><a href="paginas/sobrenos.html">Sobre nosotros</a></li>
+                <li><a href="paginas/contacto.html">Contacto</a></li>
+                <li><a href="paginas/listaproductos.html">Productos</a></li>
+            </ul>
+            <div class="footercont__info">
+                <div class="contain__info">
+                    <div class="info">
+                        <span>Dirección</span>
+                        <p>General san martin, Prov. de Bs.As</p>
+                        <span>Teléfono</span>
+                        <p>011 1128599258</p>
+                    </div>
+                    <div class="info">
+                        <span>Horarios</span>
+                        <p class="dif">Lunes a viernes</p>
+                        <p>9:30 a 15:00 y 17:00 a 21:00</p>
+                        <p class="dif" >Sabados</p>
+                        <p>9:30 a 13:00 y 18:00 a 20:00</p>
+                        <p class="dif">Domingos cerrado</p>
+                    </div>
+                    <div class="info">
+                        <span>Seguinos</span>
+                        <img class="socialimg" src="recursos/icons8-instagram-24.png" alt="Instagram">
+                        <img class="socialimg" src="recursos/icons8-facebook-30.png" alt="Facebook">
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <span>&#169 Donqueso 2023</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c747ef749e.js" crossorigin="anonymous"></script>
+</body>
+</html>

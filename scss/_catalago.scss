@@ -1,0 +1,116 @@
+.catalago{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    font-family: $fontprincial;
+
+    &__cont{
+        display: grid;
+        grid-template-areas: "gruno grdos grtres"
+                            "grcuatro grcinco grseis";
+        justify-content: center;
+        padding: 2rem;
+        margin: 2rem; 
+    }
+    &__contproducto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 1rem;
+        img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover; 
+            &:hover{
+                transform: translateY(-10px);
+                box-shadow: 1px 1px 17px 9px rgba(0,0,0,0.19);
+            }
+        }
+        h2 {
+            font-family: $fontprincial;
+            font-weight: bold;
+            color: $color_prin;
+            font-size: 1.5rem;
+            padding-top: 1rem;
+            text-align: center;
+        }
+        span {
+            font-family: $fontprincial;
+            font-weight: bold;
+            color: $color_prin;
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+}
+
+.g1 {
+    grid-area: gruno;
+}
+
+.g2 {
+    grid-area: grdos;
+}
+
+.g3 {
+    grid-area: grtres;
+}
+
+.g4 {
+    grid-area: grcuatro;
+}
+
+.g5 {
+    grid-area: grcinco;
+}
+
+.g6 {
+    grid-area: grseis;
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+    .catalago__cont {
+        grid-template-areas:"gruno"
+                            "grdos"
+                            "grtres"
+                            "grcuatro"
+                            "grcinco"
+                            "grseis";
+        margin: 0;
+        padding: 0; 
+    }
+    .catalago__contproducto {
+        margin: 0;
+        margin-top: 1rem; 
+    }
+    .catalago__contproducto img {
+        width: 70vw;
+        height: 30vh; 
+    }
+    .catalago__contproducto span {
+        padding: 1rem; 
+    } 
+}
+  
+@media (min-width: 541px) and (max-width: 820px) {
+    .catalago__cont {
+        grid-template-areas:"gr1 gr2"
+                            "gr3 gr4"
+                            "gr5 gr6";
+        margin: 0;
+        padding: 0; 
+    }
+    .catalago__contproducto img {
+        width: 40vw;
+        height: 30vh; 
+    } 
+}
+  
+@media (min-width: 821px) and (max-width: 1280px) {
+    .catalago__contproducto img {
+        width: 25vw;
+        height: 30vh; 
+    } 
+}
+

@@ -1,0 +1,111 @@
+.contport {
+    height: 300px;
+
+    &__portada {
+        height: 100%;
+        background-image: url(../recursos/contactportada.jpg);
+        background-size: cover;
+        background-position: center; 
+    }
+    &__portadaCont{
+        @include portadaconteiner;
+    }
+    &__portadaInfo{
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        h1 {
+            @include portadah2
+        }
+    }
+}
+
+.fiamport {
+    height: 300px;
+    &__portada{
+        height: 100%;
+        background-image: url(../recursos/placeholder.jpg);
+        background-size: cover;
+    }
+    &__portadaCont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%; 
+    }
+    &__portadaInfo{
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        h1 {
+            @include portadah2; 
+        }
+    }
+}
+
+.quesport {
+    height: 300px;
+
+    &__portada{
+        height: 100%;
+        background-image: url(../recursos/portadaprincipalqueso.jpg);
+        background-size: cover;
+        background-position: right;
+    }
+    &__portadaCont{
+        @include portadaconteiner;
+    }
+    &__portadaInfo{
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        h1 {
+            @include portadah2; 
+        }
+    }
+}
+
+.tablaport {
+    height: 300px;
+
+    &__portada {
+        height: 100%;
+        background-image: url(../recursos/tablaportada.jpg);
+        background-size: cover;
+        background-position:center;
+    }
+    &__portadaCont {
+        @include portadaconteiner; 
+    }
+    &__portadaInfo{
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        h1 {
+            @include portadah2; 
+        }
+    }
+}
+
+.tiendaport {
+    height: 300px;
+
+    &__portada {
+        height: 100%;
+        background-image: url(../recursos/tiendaportada.jpg);
+        background-size: cover;
+        background-position:center; 
+    }
+    &__portadaCont {
+        @include portadaconteiner;
+    }
+    &__portadaInfo {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+    }
+    h1 {
+        @include portadah2
+    }
+}
